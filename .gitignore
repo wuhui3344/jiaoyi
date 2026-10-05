@@ -1,0 +1,23 @@
+# ---- 模型与构建产物（体积大，不入库） ----
+android/app/src/main/assets/kronos/*.onnx
+android/app/src/main/assets/kronos/*.json
+tools/.venv/
+tools/models/
+
+# ---- Gradle / Android ----
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]

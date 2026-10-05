@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 图标: K 线 + 上升趋势 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 上涨 K 线 -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M32,40 h7 v22 h-7 z" />
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2.5"
+        android:pathData="M35.5,32 L35.5,40" />
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2.5"
+        android:pathData="M35.5,62 L35.5,72" />
+
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M47,50 h7 v16 h-7 z" />
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2.5"
+        android:pathData="M50.5,43 L50.5,50" />
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2.5"
+        android:pathData="M50.5,66 L50.5,73" />
+
+    <!-- 下跌 K 线 -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M62,54 h7 v14 h-7 z" />
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2.5"
+        android:pathData="M65.5,47 L65.5,54" />
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2.5"
+        android:pathData="M65.5,68 L65.5,74" />
+
+    <!-- 预测趋势线 -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.95"
+        android:pathData="M28,66 L46,56 L64,60 L80,42" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M80,38 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>
